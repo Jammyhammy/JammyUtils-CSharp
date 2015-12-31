@@ -52,7 +52,7 @@ namespace JammyUtils.ScaleReader.Classes
             {
                 //TODO: 1v1 the scale.
                 //I mean check if tcpclient closed if this happens.
-                return "Oh god why";
+                return ex.ToString();
             }
 
         }
